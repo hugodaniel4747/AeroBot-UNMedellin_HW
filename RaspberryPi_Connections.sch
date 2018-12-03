@@ -699,11 +699,7 @@
 <sheets>
 <sheet>
 <plain>
-<text x="177.8" y="144.78" size="1.778" layer="91">USB0 TO ARDUINO -&gt;
-USB1 TO WEBCAM -&gt;
-USB2 TO WIRELESS MODULE -&gt;
-USB3 TO (UNUSED) -&gt;</text>
-<text x="198.12" y="231.14" size="1.778" layer="91">TOOL CHANGER CONNECTOR-&gt;</text>
+<text x="114.3" y="180.34" size="1.778" layer="91">TOOL CHANGER CONNECTOR-&gt;</text>
 <text x="139.7" y="241.3" size="1.778" layer="91">ANALOG INPUT</text>
 <text x="27.94" y="241.3" size="1.778" layer="91">Signals enter in board from raspberry pi by the pin headers</text>
 <text x="-50.8" y="218.44" size="1.778" layer="91">TOOL_CHANGER_DIGITAL_I to BCM 23 on Raspberry Pi
@@ -713,9 +709,9 @@ MISO_A to BCM 09 on Raspberry Pi
 SCLK_A to BCM 11 on Raspberry Pi</text>
 </plain>
 <instances>
-<instance part="JP2" gate="A" x="236.22" y="220.98" smashed="yes">
-<attribute name="NAME" x="229.87" y="229.235" size="1.778" layer="95"/>
-<attribute name="VALUE" x="229.87" y="210.82" size="1.778" layer="96"/>
+<instance part="JP2" gate="A" x="152.4" y="170.18" smashed="yes">
+<attribute name="NAME" x="146.05" y="178.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.05" y="160.02" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="17.78" y="223.52" smashed="yes" rot="MR0">
 <attribute name="NAME" x="24.13" y="234.315" size="1.778" layer="95" rot="MR0"/>
@@ -742,8 +738,8 @@ SCLK_A to BCM 11 on Raspberry Pi</text>
 <junction x="73.66" y="231.14"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="226.06" x2="193.04" y2="226.06" width="0.1524" layer="91"/>
-<label x="193.04" y="226.06" size="1.778" layer="95"/>
+<wire x1="149.86" y1="175.26" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
+<label x="109.22" y="175.26" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="1"/>
 </segment>
 </net>
@@ -761,8 +757,8 @@ SCLK_A to BCM 11 on Raspberry Pi</text>
 <pinref part="U$1" gate="A" pin="VSS"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="215.9" x2="193.04" y2="215.9" width="0.1524" layer="91"/>
-<label x="193.04" y="215.9" size="1.778" layer="95"/>
+<wire x1="149.86" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
+<label x="109.22" y="165.1" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="5"/>
 </segment>
 </net>
@@ -804,15 +800,15 @@ SCLK_A to BCM 11 on Raspberry Pi</text>
 <pinref part="U$1" gate="A" pin="IN+"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="218.44" x2="193.04" y2="218.44" width="0.1524" layer="91"/>
-<label x="193.04" y="218.44" size="1.778" layer="95"/>
+<wire x1="149.86" y1="167.64" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
+<label x="109.22" y="167.64" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="TOOL_CHANGER_DIGITAL_O" class="0">
 <segment>
-<wire x1="233.68" y1="220.98" x2="193.04" y2="220.98" width="0.1524" layer="91"/>
-<label x="193.04" y="220.98" size="1.778" layer="95"/>
+<wire x1="149.86" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
+<label x="109.22" y="170.18" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="3"/>
 </segment>
 <segment>
@@ -823,8 +819,8 @@ SCLK_A to BCM 11 on Raspberry Pi</text>
 </net>
 <net name="TOOL_CHANGER_DIGITAL_I" class="0">
 <segment>
-<wire x1="233.68" y1="223.52" x2="193.04" y2="223.52" width="0.1524" layer="91"/>
-<label x="193.04" y="223.52" size="1.778" layer="95"/>
+<wire x1="149.86" y1="172.72" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
+<label x="109.22" y="172.72" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="2"/>
 </segment>
 <segment>
